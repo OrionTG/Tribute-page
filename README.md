@@ -1,2 +1,2 @@
 # Tribute-page
-Tribute page of Nguyen Du, Project of freecodecamp
+Tribute page: Nguyen Du, Project of freeCodeCamp
