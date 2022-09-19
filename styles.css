@@ -112,7 +112,7 @@ article {
 .author span,
 .photographer span {
     color: rgba(0, 0, 0, 0.4);
-    text-transform: capitalize;
+    text-transform: lowercase;
 }
 
 @media (min-width: 700px) {
@@ -124,7 +124,7 @@ article {
 }
 
 .image img {
-    width: 50%;
+    width: 100%;
     margin: 20px 0;
 }
 
