@@ -43,26 +43,20 @@ aside {
     }
 }
 
-h1 {
+#title {
+    padding-top: 0;
+    margin-top: 0;
     letter-spacing: 10px;
     text-transform: uppercase;
 }
 
-.img-caption {
+#img-caption {
     margin: 0 20px;
     text-align: center;
     line-height: 1.5;
     font-style: italic;
 }
 
-@media (min-width: 1100px) {
-    .img-caption {
-        margin: 0 100px;
-        text-align: center;
-        line-height: 1.7;
-        font-size: 1.2em;
-    }
-}
 
 article {
     margin: 0;
@@ -98,12 +92,12 @@ article {
     }
 }
 
-#img-div img {
-
+#image {
     width: 300px;
-  border-radius: 50%;
-  justify-content: center;
-    align-items: center;
+    border-radius: 50%;
+    height:auto;
+    display:block;
+    max-width:100%;
 }
 
 #tribute-info {
@@ -132,34 +126,37 @@ article {
     }
 }
 
-.right{
-    text-align:right;
+.right {
+    text-align: right;
 }
-    
+
 
 
 a:link {
     color: green;
     background-color: transparent;
     text-decoration: none;
-  }
-  a:visited {
+}
+
+a:visited {
     color: rgb(82, 32, 40);
     background-color: transparent;
     text-decoration: none;
-  }
-  a:hover {
+}
+
+a:hover {
     color: red;
     background-color: transparent;
     text-decoration: none;
-  }
-  a:active {
+}
+
+a:active {
     color: yellow;
     background-color: transparent;
     text-decoration: underline;
-  }
+}
 
-  footer {
-    margin:20px 0;
+footer {
+    margin: 20px 0;
     padding: 0 70px 50px 0;
-  }
+}
